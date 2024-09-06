@@ -10,9 +10,6 @@ const Navbar = () => {
         <Link className="navbar-brand ml-5" to="/">
           EduQuest
         </Link>
-        {/* <a className="navbar-brand mr-5" href="#">
-          CourseHub
-        </a> */}
         <button
           className="navbar-toggler"
           type="button"
@@ -29,18 +26,12 @@ const Navbar = () => {
           id="navbarNavAltMarkup"
         >
           <div className="navbar-nav ml-auto">
-            {/* <a className="nav-link active" aria-current="page" href="#">
-              Home
-            </a> */}
             <Link to="/courses" className="nav-link mx-2">
               All Courses
             </Link>
             <Link to="/user/dashboard" className="nav-link mx-2">
               Dashboard
             </Link>
-            {/* <Link to="/user/dashboard" className="nav-link mx-2">
-              Hello {student.name}
-            </Link> */}
           </div>
         </div>
       </div>

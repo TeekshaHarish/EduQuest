@@ -1,4 +1,4 @@
-# CourseHub - React Course Management App
+# EduQuest - React Course Management App
 
 This web application showcases a list of courses and their details using React.
 
@@ -35,23 +35,24 @@ Display Course Information:
 Utilize a state management library such as Redux or MobX to manage the application's state effectively.
 
 ### Implementation
+
 Server made using expressJs and frontend using Reactjs. Redux is used to store the universla state for the current user. Also the details of the courses are fteched from an api and stored in a Mongo Database.
 
 ## How to Run
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
-2. Navigate to the project directory: `cd CourseHub`
+1. Clone the repository: `git clone https://github.com/TeekshaHarish/EduQuest.git`
+2. Navigate to the project directory: `cd EduQuest`
 3. Install backend dependencies: `npm install`
 4. Install frontend dependencies: `cd frontend` ->
-                                  `npm i` ->
-                                  `cd ..`
+   `npm i` ->
+   `cd ..`
 5. Make an .env file ,add a key for MONGO_URL with value of your connection url for mongo database in it, take .env.example file as reference.
 6. Run the development server and frontend concurrently: `npm run dev`
 
 ### Tech Stack
+
 - Nodejs
 - Expressjs
 - React
 - MongoDB
 - Bootstrap
-
